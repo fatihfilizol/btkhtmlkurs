@@ -1,0 +1,130 @@
+/* Boşlukları sıfırla */
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+ body{
+
+    background-color: #082032;
+ }
+ 
+ #sayfa{
+     width: 900px;
+     min-height: 100%;
+     margin: auto;
+ }
+ /* Banner */
+ #banner{
+     width: 900px;
+     height: 100px;
+     background-color:#082032;
+     margin: auto;
+ }
+ #logo{
+    width: 70px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    float: left;
+ }
+ #sosyal{
+    width: 130px;
+    height: 40px;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 10px;
+ }
+
+ #navigation{
+    width: 900px;
+    height: 50px;
+    background-color:#2C394B;
+    margin: auto;
+ }
+ #navigation ul {
+    list-style-type: none;
+ }
+ #navigation ul li{
+     width: 100px;
+     border-style: solid;
+     border-width: 3px;
+     float: left;
+     border-color: #FF4C29;
+     border-radius: 10px;
+     background-color: #FF4C29;
+     padding: 5px;
+     margin-left: 10px;
+     position: relative;
+     top: 8px;
+     left: 210px;
+     text-align: center;
+
+ }
+ #navigation ul a{
+     text-decoration: none;
+     font-family: monospace;
+     font-size: 14px;
+     font-weight: bold;
+     color: #2C394B;
+ }
+ #navigation ul a:hover{
+     background-color: #2C394B;
+     color:#FF4C29;
+     font-size: 16px;
+ }
+
+ #icerik{
+    width: 600px;
+    height: 600px;
+    background-color:#334756;
+    float: left;
+    overflow:auto;
+ }
+
+ #yanmenu{
+    width: 300px;
+    height: 400px;
+    background-color:#414e66;
+    float: right;
+    overflow:auto;
+ }
+ p{
+     font-family: monospace;
+     font-size: 12px;
+     color: whitesmoke;
+     text-indent: 30px;
+     margin: 10px;
+ }
+ #yanmenu p{
+    font-family: monospace;
+    font-size: 12px;
+    color: whitesmoke;
+    text-indent: 20px;
+    margin: 10px;
+    text-align:center;
+}
+ #icerik h1,#icerik h4,#yanmenu h1,#yanmenu h4{
+    font-family: monospace;
+    color:white;
+    text-align:center;
+ }
+
+
+ #altmenu{
+     width: 900px;
+     height: 50px;
+     background-color: #FF4C29;
+     float: left;
+ }
+ #altmenu p{
+    font-family: monospace;
+    font-size: 16px;
+    color: #2C394B;
+    text-align:center;
+    font-weight: bold;
+    margin: 16px;
+    letter-spacing: 6px;
+    word-spacing: 5px;
+}

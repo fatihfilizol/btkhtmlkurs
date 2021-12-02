@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Üye Kayıt Formu</h1>
+        <form action="kayit.php" name="kayit" method="GET">
+            Ad Soyad:
+            <input type="text" name="adsoyad"><br>
+            <input type="submit">
+        </form>
+
+        <h1>Detaylı Kayıt Formu</h1>
+        <form action="kayit.php" name="kayitmetinkutusu" method="GET">
+            Ad Soyad:
+            <!--size boyut maxlength maximum alabileceği karakter sayısı required boş bırakılamaz özelliği--> 
+            <input type="text" name="adsoyad2" id="idadsoyad" size="20" maxlength="30" required><br>
+            Email:
+            <!--type email girilen verinin email formatında olmasını kontrol ediyor-->
+            <input type="email" name="email" id="idemail" required><br>
+            Web Sitesi: 
+            <!--type url verinin web sitesi olduğunu belirtir-->
+            <input type="url" name="website" id="idwebsite"><br>
+            Şifre:
+            <!--type password girilen değeri gizler--> 
+            <input type="password" name="password" id="idpassword" required><br>
+            Yaş:
+            <!--number sadece sayısal değer girilebilir hale getirir-->
+            <input type="number" name="yas" id="idyas" required><br>
+            <!-- onayalamak için type submit formu temizlemek için type reset, value buton üzerindeki yazı  -->
+            <input type="submit" name="onay" id="idonay" value="Onayla">
+            <input type="reset" name="reset" id="idreset" value="Temizle">
+        </form>
+
+        <h1>Tablo Form</h1>
+        <form action="kayit.php" name="tabloform" id="idtabloform">
+            <table border="1">
+                <caption>Kayıt Formu</caption>
+                <tr>
+                    <td>Ad Soyad: </td>
+                    <td><input type="text" name="fadsoyad" id="fidadsoyad"></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td><input type="email" name="femail" id="fidemail"></td>
+                </tr>
+                <tr>
+                    <td>Şifre: </td>
+                    <td><input type="password" name="fpassword" id="fidpassword"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right;">
+                        <input type="submit" name="fonay" id="fidonay">
+                        <input type="reset" name="freset" id="fidreset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <h1>TextArea Uygulama</h1>
+        <form action="kayit.php" name="formtextarea" id="idformtextarea">
+            Öneri: <br>
+            <textarea name="oneri" id="idoneri" cols="60" rows="8"></textarea><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>

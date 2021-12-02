@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Onay Kutusu</h1>
+        <form name="oany">
+            <input type="checkbox" name="bulten" id="idbulten"> Bültene Abone Ol <br>
+            <input type="checkbox" name="medenidurum" id="idmedenidurum"> Evli Misiniz <br> <br>
+            <input type="submit" value="Onayla">
+        </form>
+
+
+        <h1>Seçenek Kutusu</h1>
+        <h3>Tuttuğunuz Takım</h3>
+        <form name="secenek">
+            <input type="radio" name="takim" value="Besiktas" checked>Beşiktaş<br>
+            <input type="radio" name="takim" value="Fenerbahce">Fenerbahçe<br>
+            <input type="radio" name="takim" value="Sivasspor">Sivasspor<br>
+            <input type="radio" name="takim" value="Basaksehir">Başakşehir<br>
+            <input type="radio" name="takim" value="Sakaryaspor">Sakaryaspor<br>
+        </form>
+
+        <h1>Seçenek Listesi</h1>
+        <form name="secenek">
+            Yaşadığınız Şehir: <select name="iller" id="idiller">
+                <option value="Muğla">Muğla</option>
+                <option value="İzmir">İzmir</option>
+                <option value="İstanbul">İstanbul</option>
+                <option value="Sakarya">Sakarya</option>
+                <option value="Antalya" selected>Antalya</option>
+                <option value="Ankara">Ankara</option>
+            </select><br>
+            <input type="submit" name="onaysehir" id="idonaysehir">
+            <input type="reset" name="sifirlasehir" id="idsifirlasehir">
+        </form>
+        <!--selected: Seçili gelmesini istediğimiz optiona yazılır
+        checked: seşili gelmesini istediğimiz seçeneğe yazılır-->
+
+        <h1>Resimli Onay Formu</h1>
+        <form action="oany.php" method="get" name="onayresim">
+            Onay Kodu: <input type="text"> <br>
+            <input type="image" name="image" id="image" src="img/masa.jpg" width="70">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                border-style: solid;
+                border-color: coral;
+
+            }
+            #buyuk{
+                width: 200px;
+                height: 100px;
+                background-color: darkcyan;
+                position: fixed;
+                right: 0px;
+                bottom: 0px;
+                border-radius: 20px 40px;
+                border-width: 10px 30px 40px 60px;
+            }
+            #kucuk{
+                width: 100px;
+                height: 50px;
+                background-color: khaki;
+                position: relative;
+                left: 20px;
+                top: 50px;
+                box-shadow: 10px 20px 20px yellow;
+            }
+            #ickutu{
+                width: 100px;
+                height: 50px;
+                background-color: darkred;
+                position: absolute;
+                right: 20px;
+                top: 20px;
+            }
+            #zindexb{
+                width: 300px;
+                height: 100px;
+                background-color: darkslateblue;
+                z-index: 1;
+                border-radius: 20px;
+            }
+            #zindexk{
+                width: 150px;
+                height: 50px;
+                background-color: darkviolet;
+                position: relative;
+                top: -30px;
+                left: 30px;
+                z-index: -1;
+                border-radius: 0px 0px 10px 30px;
+            }
+            #owerflow{
+                width: 200px;
+                height: 100px;
+                background-color: forestgreen;
+                overflow:auto; 
+            }
+            #yaslan1,#yaslan2,#yaslan3{
+                border-color: tomato;
+                width: 100px;
+                height: 50px;
+                float: left;
+                margin: 20px;
+                background-color: thistle;
+                box-shadow: 10px 10px 30px violet;
+            }
+            #yaslan1{
+
+            }
+            #yaslan2{
+                
+            }
+            #yaslan3{
+
+            }
+        </style>
+    </head>
+    <body>
+        <div id="buyuk"><div id="ickutu"></div></div>
+        <div id="kucuk"></div>
+        <div id="zindexb"></div>
+        <div id="zindexk"></div>
+        <div id="owerflow"> Lorem ipsum dolor sit. <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet consectetur adipisicing. <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi! <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div id="yaslan1"></div>
+        <div id="yaslan2"></div>
+        <div id="yaslan3"></div>
+    </body>
+</html>

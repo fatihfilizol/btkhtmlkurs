@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .formeleman{
+                padding: 5px;
+                margin: 5px;
+                position: relative;
+                left: 30px;
+                border-style: dashed;
+            }
+            input[type=text],input[type=email]{
+                color: lightseagreen;
+                background-color: rgb(126, 42, 42);
+            }
+            input[type=submit]{
+                background-color: mediumspringgreen;
+            }
+            input[type=reset]{
+                background-color: red;
+                color: seashell;
+            }
+            textarea{
+                background-color: sienna;
+                color: skyblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Form Biçimlendirme</h1>
+        <form action="onay.php" name="onay">
+            Ad Soyad: <input type="text" class="formeleman"><br>
+            Email: <input type="email" class="formeleman"><br>
+            Mesaj: <textarea name="mesaj" id="idmesaj" cols="30" rows="5" class="formeleman"></textarea><br>
+            <input type="submit" class="formeleman">
+            <input type="reset" class="formeleman">
+        </form>
+    </body>
+</html>

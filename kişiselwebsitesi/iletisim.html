@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fatih Filizol'un çalışmalarının ve sertifikalarının yer aldığı kişisel web sitesi">
+    <meta name="keywords" content="Fatih,Filizol,cv,web,frontend,developer">
+    <title>Fatih Filizol</title>
+</head>
+<body>
+    <nav>
+        <center>
+            <h1>Fatih Filizol</h1>
+            <ul>
+                <tr>
+                    <td><a href="index.html">Anasayfa</a> |</td>
+                    <td><a href="cv.html">CV</a> |</td>
+                    <td><a href="iletisim.html">İletişim</a> |</td>
+                </tr>
+            </ul>
+            <hr>
+        </center>
+    </nav>
+    <center>
+        <h2>Adres</h2>
+        <p>Cevizli Mahallesi <br> Maltepe/İstanbul</p>
+        <h2>Telefon</h2>
+        <p>0(555) 555 55 55</p>
+        <form action="email.php" name="email" method="get">
+            <table>
+                <tr>
+                    <td>Ad Soyad:</td> 
+                    <td><input type="text" name="adsoyad" id="idadsoyad"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" id="idemail"></td>
+                </tr>
+                <tr>
+                    <td>Mesajınız: </td>
+                    <td><textarea name="mesaj" id="idmesaj" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="submit" id="idsubmit">
+                        <input type="reset" name="reset" id="idreset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
